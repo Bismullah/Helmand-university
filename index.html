@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helmand University</title>
+
+  <link rel="stylesheet" href="./style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <script defer src="index.js"></script>
+</head>
+<body  dir="rtl">
+  <header>
+    <div class="logo">HelManD UniVersitY</div>
+    <nav>
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i> اصلی صفحه</a></li>
+        <li><a href="#about"><i class="fas fa-info-circle"></i>زموږ په هکله</a></li>
+        <li>
+          <a href="#academics"><i class="fas fa-graduation-cap"></i>اکادمیک</a>
+          <ul>
+            <li><a href="#"><i class="fas fa-code"></i>  کمپیوټر ساینس</a></li>
+            <li><a href="#"><i class="fas fa-cogs"></i> انجینری</a></li>
+            <li><a href="#"><i class="fas fa-book"></i> ادبیات</a></li>
+          </ul>
+        </li>
+        <li><a href="./news..html"><i class="fas fa-newspaper"></i>د پوهنتون معلومات</a></li>
+       
+        <li><a href="login.html" id="login-btn"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+ 
+  <!-- Logout button -->
+  <button id="logout-btn" style="display: none;">Logout</button>
+
+  <main>
+    <section id="hero">
+      <h1>هلمند پوهنتون ته ښه راغلاست</h1>
+      <p>د پوهې او فرصتونو نړۍ ومومئ.</p>
+      
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>د هلمند پوهنتون په اړه</h2>
+        <p>هلمند پوهنتون په افغانستان کې د لوړو زده کړو یوه مخکښه موسسه ده چې په بېلابېلو برخو کې پراخ علمي پروګرامونه وړاندې کوي. په 1985 کې تاسیس شوی، پوهنتون په هیواد کې یو له خورا درناوي موسسې په توګه وده کړې، زده کونکو ته د لوړ کیفیت زده کړې چمتو کوي او د بریالي مسلک لپاره چمتو کوي.</p>
+        <ul>
+          <li>د افغانستان د لوړو زده کړو وزارت لخوا تصدیق شوی</li>
+          <li>په هیواد کې د غوره پوهنتونونو په منځ کې درجه بندي</li>
+          <li>دواړه د لیسانس او ​​د فراغت برنامې وړاندیز کوي</li>
+          <li>په څیړنه او نوښت باندې قوي تمرکز</li>
+          <li>د عصري اسانتیاوو سره د ملاتړ کیمپس چاپیریال</li>
+        </ul>
+    
+        <a href="#" class="btn">اوس غوښتنه وکړه</a>
+    
+     
+      </div>
+    </section>
+
+    <section id="academics">
+      <h2>زموږ علمي پروګرامونه</h2>
+      <div class="program-grid">
+        <div class="program-card">
+          <img src="cs2.jpg" alt="Computer Science">
+          <h3>د کمپیوټر ساینس</h3>
+          <p>د کمپیوټر ساینس او د هغې غوښتنلیکونو خورا مهم ډګر وپلټئ.</p>
+          <a href="#">نور زده کړئ</a>
+        </div>
+        <div class="program-card">
+          <img src="eng.jpg" alt="Engineering">
+          <h3>انجینری</h3>
+          <p>د ریښتیني نړۍ ننګونو حل کولو لپاره په مختلف انجینري څانګو کې خپل مهارتونه رامینځته کړئ.</p>
+          <a href="#">نور زده کړئ</a>
+        </div>
+        <div class="program-card">
+          <img src="lit.jpg" alt="Literature">
+          <h3>ادبیات</h3>
+          <p>خپل ځان د ادب او ژبې مطالعې بډایه نړۍ کې ډوب کړئ.</p>
+          <a href="#">نور زده کړئ</a>
+        </div>
+      </div>
+    </section>
+  
+
+    <section id="contact">
+      <h2>موږ سره اړیکه ونیسئ</h2>
+      <form>
+        <label for="name">نوم:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">بریښنالیک:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">پیغام:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">پیغام واستوئ</button>
+      </form>
+    </section>
+
+
+
+    <!-- <section id="login-modal" class="modal" >
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <h2>Login</h2>
+          <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+  
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+  
+            <button type="submit">Login</button>
+          </form>
+        </div>
+      </section> -->
+  </main>
+
+  <footer>
+    <p>&copy; 2024 هلمند پوهنتون ټول حقونه خوندي دي.</p>
+  </footer>
+</body>
+</html>
